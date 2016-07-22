@@ -14,9 +14,10 @@ glimpse(airline)
 # 我们用`corrplot()`函数检查问卷调查问题的相关性：
 
 # 选取其中的问卷调查项
-# dplyr中的select()函数，选择dataFrame中的列
+# dplyr中的select()函数，选择dataFrame中的列，具体 查看http://mooc.guokr.com/note/17908/
 # library(datasets)
 # data() 查看全部数据集
+# 
 
 
 select(airline,Easy_Reservation:Recommend)%>%
